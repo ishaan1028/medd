@@ -1,0 +1,95 @@
+ <div class="sscen">
+              <button type="submit"> Predict </button>
+            </div>
+
+
+
+            .sscen{
+  margin: 30px auto 30px auto;
+  text-align: center;
+  
+}
+.sscen button{
+  padding: 5px 80px;
+  position: relative;
+  left:34px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.sscen button:hover{
+  cursor: pointer;
+  }
+
+
+  </div>
+      <div class="row">
+        <div   >
+          <div  class="dpt">
+            <div class="stitled txtcenter">
+              <h3>Results</h3>
+            </div>
+            <table class="table tt">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Algorithm</th>
+                  <th scope="col">Disease</th>
+                  <th scope="col">Accuracy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row">1</td>
+                  <td>Decison tree</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td scope="row">2</td>
+                  <td>KNN</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                
+              </tbody>
+            </table>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <form action="/preDT" method="post">
+                    <button name="submit" type="submit" class="btn btn-lg  btt" id="submit">
+                    
+                      Prediction 1 </button>
+                  </form>
+  
+                </div>
+  
+                
+                <div class="col-md-6">
+                  <form action="/preKNN" method="post">
+                    <button name="submit" type="submit" class="btn btn-lg  btt" id="submit">
+                    
+                      Prediction 2</button>
+                  </form>
+  
+  
+                </div>
+
+              </div>
+
+              
+              
+
+
+
+
+
+
+              
+                
+
+            </div>
+          </div>
+        </div>
+
+      </div>
